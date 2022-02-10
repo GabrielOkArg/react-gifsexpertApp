@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebe de GitGifItem debe mostrar un item correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeInDown"
+>
+  <img
+    alt="Dragon Ball GIF by TOEI Animation UK"
+    src="https://media2.giphy.com/media/FRkBbAdRf2jTfahZaA/giphy.gif?cid=22b511629gb4qvrh6sj1zig5w834he0677hd19mn0pmmyg8s&rid=giphy.gif&ct=g"
+  />
+  <p>
+    Dragon Ball GIF by TOEI Animation UK
+  </p>
+</div>
+`;

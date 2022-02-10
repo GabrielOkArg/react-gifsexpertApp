@@ -17,8 +17,10 @@ export const AddCategory = ({setCategories}) => {
     }
     return (
         <form onSubmit={handleSubmit}>
+            <p>{inputValue}</p>
             <input
                 type='text'
+                placeholder='Que gif estas buscando?'
                 value={inputValue}
                 onChange={handleInputValue}
                 required
@@ -26,8 +28,8 @@ export const AddCategory = ({setCategories}) => {
         </form>
     );
    
-};
+}
 
-AddCategory.protoType={
-    setCategories: PropTypes.func.required
+AddCategory.protoTypes={
+    setCategories: PropTypes.func.isRequired
 }
